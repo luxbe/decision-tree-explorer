@@ -1,0 +1,16 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+@layer components {
+	.btn-hidden {
+		@apply hover:bg-transparent hover:border-none focus:border-none;
+	}
+}

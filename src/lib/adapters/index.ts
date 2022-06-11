@@ -1,0 +1,1 @@
+export { getDecisionTree } from './manual';
