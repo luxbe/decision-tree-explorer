@@ -1,22 +1,22 @@
-# create-svelte
+# Decision Tree Explorer
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
+A project to help you visually explore decision trees!
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+First, make sure you have [pnpm](https://pnpm.io/) installed. If not you can install it with npm:
+
+```bash
+npm install -g pnpm
+```
+
+Clone this project with the following command
+
+```bash
+git clone https://github.com/luxbe/decision-tree-explorer
+```
+
+Once you've cloned the project and installed dependencies with `pnpm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
